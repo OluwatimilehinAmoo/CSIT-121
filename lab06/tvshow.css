@@ -124,3 +124,21 @@ a:hover {
 a:visited {
     color: red;
 }
+
+@media only screen and (min-width: 768px) {
+    .MA {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .PS {
+        flex: 1;
+        background-color: #000000;
+    }
+
+    .SR {
+        flex: 1;
+        background-color: #000000;
+    }
+
+}
